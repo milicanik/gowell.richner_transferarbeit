@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gowell.Richner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img src="Bilder/gowell.jpg" alt="Logo" id="logo">
+            </a>
+            <nav>
+                <div id="burger-menu" onclick="toggleMenu()">☰</div>
+                <ul id="nav-list">
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="ueber-mich.html">Über uns</a></li>
+                    <li><a href="dienstleistungen.html">Dienstleistungen</a></li>
+                    <li><a href="referenzen.html">Referenzen</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <img src="Bilder/medizinfuergeist.jpg" alt="gowell" id="gowellImg">
+        <h1>Willkommen bei Gowell</h1>
+        <p>Medizin für Geist, Seele und Körper
+            Wohlfühlen so weit die Sinne reichen
+            Willkommen an der virtuellen Türe meiner Praxis.
+            Auf dieser Seite erfahren sie ein wenig mehr über mich und
+            meine Arbeit und Ausbildung.</p>
+        <section>
+            <h2>Entdecken Sie unser umfangreiches Dienstleistungsangebot.</h2>
+            <a href="dienstleistungen.html">Mehr erfahren</a>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gowell. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script>
+        document.getElementById('burger-menu').addEventListener('click', function () {
+            document.getElementById('nav-list').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
