@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: #333;
-    padding-bottom: 60px;
-    padding-top: 30px;
+    margin: 1%;
+    padding: 1%;
+    background-color: wheat;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 15px;
  
 }
  
@@ -19,18 +19,18 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
-    background-color:darksalmon;
+    z-index: 9000;
+    background-color: wheat;
 }
  
 #logo {
-    height: 50px;
+    height: 65px;
     width: auto;
 }
  
 header {
-    background-color:darksalmon;
-    color: white;
+    background-color:wheat;
+    color: black;
     padding: 1em 0;
     text-align: center;
  
@@ -48,7 +48,7 @@ nav ul li {
 }
  
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
  
@@ -72,7 +72,7 @@ nav ul li a {
         right: 20px;
         z-index: 1001;
         font-size: 30px;
-        color: white;
+        color: black;
     }
  
     /* Vollbild-Overlay für das Navigationsmenü */
@@ -103,15 +103,15 @@ nav ul li a {
     }
  
     nav ul li a {
-        color: white;
+        color: black;
         font-size: 1.5em;
         padding: 10px 20px;
         text-decoration: none;
         transition: background-color 0.3s, color 0.3s;
  
         &:hover {
-            background-color:darksalmon;
-            color: #fff;
+            background-color:wheat;
+            color: black;
         }
     }
 }
@@ -125,7 +125,7 @@ main {
 }
  
 main h1 {
-    color: #333;
+    color: black;
 }
  
 main section {
@@ -146,20 +146,20 @@ table {
  
 th,
 td {
-    border: 1px solid #ddd;
+    border: 1px;
     padding: 8px;
     text-align: left;
 }
  
 th {
-    background-color: darksalmon;
-    color: white;
+    background-color: wheat;
+    color: black;
 }
  
 /*Referenzkarte*/
 .referenz-karte {
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: wheat;
+    box-shadow: 0 4px 8px black;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -210,10 +210,10 @@ th {
 }
  
 form {
-    background-color: #f8f8f8;
+    background-color: wheat;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px black;
     max-width: 500px;
     margin: 20px auto;
 }
@@ -234,7 +234,7 @@ textarea {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
-    border: 1px solid #ddd;
+    border: 1px solid white;
     box-sizing: border-box;
 }
  
@@ -244,7 +244,7 @@ textarea {
 }
  
 input[type="submit"] {
-    background-color: darksalmon;
+    background-color: wheat;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -254,7 +254,7 @@ input[type="submit"] {
 }
  
 input[type="submit"]:hover {
-    background-color: darksalmon;
+    background-color: wheat;
 }
  
 /* Responsives Design für das Formular */
