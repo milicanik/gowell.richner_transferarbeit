@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gowell.Richner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img src="Bilder/gowell.jpg" alt="Logo" id="logo">
+            </a>
+            <nav>
+                <div id="burger-menu" onclick="toggleMenu()">☰</div>
+                <ul id="nav-list">
+                    <li><a href="index.html">Startseite</a></li>
+                    <li><a href="ueber-mich.html">Über mich</a></li>
+                    <li><a href="dienstleistungen.html">Dienstleistungen</a></li>
+                    <li><a href="Datenschutzerklärung.html">Datenschutzerklärung</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Datenschutzerklärung</h1>
+        <p>Zum Schutz Ihrer Anfragen per Internetformular verwenden wir den Dienst reCAPTCHA des 
+            Unternehmens Google LLC (Google). Die Abfrage dient der Unterscheidung, ob die Eingabe 
+            durch einen Menschen oder missbräuchlich durch automatisierte, maschinelle Verarbeitung 
+            erfolgt. Die Abfrage schließt den Versand der IP-Adresse und ggf. weiterer von Google für 
+            den Dienst reCAPTCHA benötigter Daten an Google ein. Zu diesem Zweck wird Ihre Eingabe an 
+            Google übermittelt und dort weiter verwendet. Ihre IP-Adresse wird von Google jedoch 
+            innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des 
+            Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird 
+            die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Im 
+            Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre 
+            Nutzung dieses Dienstes auszuwerten. Die im Rahmen von reCaptcha von Ihrem Browser 
+            übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Für diese 
+            Daten gelten die abweichenden Datenschutzbestimmungen des Unternehmens Google.</p>
+     
+    </main>
+    <footer>
+        <p>&copy; 2024 Gowell. Alle Rechte vorbehalten.</p>
+    </footer>
+    <script>
+        document.getElementById('burger-menu').addEventListener('click', function () {
+            document.getElementById('nav-list').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
