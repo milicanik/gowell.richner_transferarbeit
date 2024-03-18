@@ -10,12 +10,12 @@
 
 <body>
     <header>
-        <div class="header-container">
+        <div class="header">
             <a href="index.html">
                 <img src="Bilder/gowell.jpg" alt="Logo" id="logo">
             </a>
             <nav>
-                <div id="burger-menu" onclick="toggleMenu()">☰</div>
+                <div id="menu" onclick="toggleMenu()">☰</div>
                 <ul id="nav-list">
                     <li><a href="index.html">Startseite</a></li>
                     <li><a href="ueber-mich.html">Über mich</a></li>
@@ -78,10 +78,10 @@
     <div id="cc-m-12895252290" class="j-module n j-googlemaps ">
 
         <div id="cc-m-map-12895252290">
-            <div class="cc-map-wrapper" style="height: 400px;">
-                        <iframe class="cc-map-embed-iframe" width="100%" height="400" frameborder="0" allowfullscreen="allowfullscreen" style="border: 0px; display: block;" data-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBs_lAfpuIjfx7DGisR7oUh1ZZ_C5qtGKc&amp;q=Pilatusstrasse+20A%2C+5032+Aarau+Rohr%2C+Schweiz&amp;maptype=roadmap" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBs_lAfpuIjfx7DGisR7oUh1ZZ_C5qtGKc&amp;q=Pilatusstrasse+20A%2C+5032+Aarau+Rohr%2C+Schweiz&amp;maptype=roadmap">
+            <div class="nav-list" style="height: 400px;">
+                        <iframe class="nav-list" width="100%" height="400" frameborder="0" allowfullscreen="allowfullscreen" style="border: 0px; display: block;" data-src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBs_lAfpuIjfx7DGisR7oUh1ZZ_C5qtGKc&amp;q=Pilatusstrasse+20A%2C+5032+Aarau+Rohr%2C+Schweiz&amp;maptype=roadmap" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBs_lAfpuIjfx7DGisR7oUh1ZZ_C5qtGKc&amp;q=Pilatusstrasse+20A%2C+5032+Aarau+Rohr%2C+Schweiz&amp;maptype=roadmap">
                 </iframe>
-                            <div class="cc-map-embed-placeholder" style="                      display: none;                      height: 400px;                      background: no-repeat center url(https://assets1.jimstatic.com/s/img/google_map_placeholder.png);                      background-size: auto;                      box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 40%);                      color: white;                      vertical-align: middle;                      justify-content: center;                      align-items: center;                      width: 100%;                      ">
+                            <div class="nav-list" style="                      display: none;                      height: 400px;                      background: no-repeat center url(https://assets1.jimstatic.com/s/img/google_map_placeholder.png);                      background-size: auto;                      box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 40%);                      color: white;                      vertical-align: middle;                      justify-content: center;                      align-items: center;                      width: 100%;                      ">
                         <span style="padding: 10px;">
                             Inhalte von Google Maps werden aufgrund deiner aktuellen Cookie-Einstellungen nicht angezeigt. Klicke auf die <a href="javascript:window.CookieControl.showCookieSettings();">Cookie-Richtlinie</a> (Funktionell), um den Cookie-Richtlinien von Google Maps zuzustimmen und den Inhalt anzusehen. Mehr dazu erfährst du in der Google Maps <a href="https://policies.google.com/privacy" target="_blank">Datenschutzerklärung</a>.                </span>
                     </div>
@@ -92,7 +92,7 @@
         <p>&copy; 2024 Gowell. Alle Rechte vorbehalten.</p>
     </footer>
     <script>
-        document.getElementById('burger-menu').addEventListener('click', function () {
+        document.getElementById('menu').addEventListener('click', function () {
             document.getElementById('nav-list').classList.toggle('active');
         });
     </script>

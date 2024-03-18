@@ -10,12 +10,12 @@
 
 <body>
     <header>
-        <div class="header-container">
+        <div class="header">
             <a href="index.html">
                 <img src="Bilder/gowell.jpg" alt="Logo" id="logo">
             </a>
             <nav>
-                <div id="burger-menu" onclick="toggleMenu()">☰</div>
+                <div id="menu" onclick="toggleMenu()">☰</div>
                 <ul id="nav-list">
                     <li><a href="index.html">Startseite</a></li>
                     <li><a href="ueber-mich.html">Über mich</a></li>
@@ -42,10 +42,10 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Gowell. Alle Rechte vorbehalten.</p>
+        <p>&copy; 2024 Gowell- Alle Rechte vorbehalten.</p>
     </footer>
     <script>
-        document.getElementById('burger-menu').addEventListener('click', function () {
+        document.getElementById('menu').addEventListener('click', function () {
             document.getElementById('nav-list').classList.toggle('active');
         });
     </script>
